@@ -1,0 +1,8 @@
+#!/bin/bash
+clear
+echo "Installing Requirements"
+apt-get  install hydra toilet figlet sshpass
+sleep 20.0
+echo "Requirements Installed"
+chmod +x main.sh
+bash main.sh
